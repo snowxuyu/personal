@@ -2,32 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="47765077-734d-4ae1-b6bf-0a14fe22589c" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_6.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/personal-core/target/classes/mybatis/mappers/TestMapper.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/personal-server/src/main/java/com/snow/personal/dto/TestDto.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/personal-server/target/classes/com/snow/personal/controller/TestController.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/personal-server/target/classes/com/snow/personal/dto/TestDto.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/personal-server/target/classes/com/snow/personal/service/TestService.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/personal-server/target/classes/com/snow/personal/service/impl/TestServiceImpl.class" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/personal-core/target/classes/com/snow/personal/dao/UserDao.class" afterPath="$PROJECT_DIR$/personal-core/target/classes/com/snow/personal/dao/UserDao.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/personal-core/target/classes/com/snow/personal/entity/User.class" afterPath="$PROJECT_DIR$/personal-core/target/classes/com/snow/personal/entity/User.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/personal_server_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/personal_server_war_exploded.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/personal-core/src/main/java/com/snow/personal/dao/UserDao.java" afterPath="$PROJECT_DIR$/personal-core/src/main/java/com/snow/personal/dao/UserDao.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/personal-core/src/main/java/com/snow/personal/entity/User.java" afterPath="$PROJECT_DIR$/personal-core/src/main/java/com/snow/personal/entity/User.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/personal-server/personal-server.iml" afterPath="$PROJECT_DIR$/personal-server/personal-server.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/personal-server/pom.xml" afterPath="$PROJECT_DIR$/personal-server/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/personal-server/src/main/resources/jdbc.properties" afterPath="$PROJECT_DIR$/personal-server/src/main/resources/jdbc.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/personal-server/src/main/resources/spring/applicationContext.xml" afterPath="$PROJECT_DIR$/personal-server/src/main/resources/spring/applicationContext.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/personal-server/src/main/resources/spring/spring-servlet.xml" afterPath="$PROJECT_DIR$/personal-server/src/main/resources/spring/spring-servlet.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/personal-server/src/main/webapp/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/personal-server/src/main/webapp/WEB-INF/web.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/personal-server/target/classes/jdbc.properties" afterPath="$PROJECT_DIR$/personal-server/target/classes/jdbc.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/personal-server/target/classes/spring/applicationContext.xml" afterPath="$PROJECT_DIR$/personal-server/target/classes/spring/applicationContext.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/personal-server/target/classes/spring/spring-servlet.xml" afterPath="$PROJECT_DIR$/personal-server/target/classes/spring/spring-servlet.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/personal-core/src/main/resources/mybatis/mappers/TestMapper.xml" afterPath="$PROJECT_DIR$/personal-core/src/main/resources/mybatis/mappers/UserMapper.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/personal-server/src/main/java/com/snow/personal/controller/TestController.java" afterPath="$PROJECT_DIR$/personal-server/src/main/java/com/snow/personal/controller/UserController.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/personal-server/src/main/java/com/snow/personal/service/TestService.java" afterPath="$PROJECT_DIR$/personal-server/src/main/java/com/snow/personal/service/UserService.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/personal-server/src/main/java/com/snow/personal/service/impl/TestServiceImpl.java" afterPath="$PROJECT_DIR$/personal-server/src/main/java/com/snow/personal/service/impl/UserServiceImpl.java" />
     </list>
     <ignored path="personal-parent.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -125,7 +100,7 @@
       <file leaf-file-name="spring-servlet.xml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/personal-server/src/main/resources/spring/spring-servlet.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.57225436">
+            <state vertical-scroll-proportion="0.5733591">
               <caret line="49" column="0" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
               <folding />
             </state>
@@ -825,7 +800,7 @@
       <workItem from="1457103519029" duration="170000" />
       <workItem from="1457180610674" duration="536000" />
       <workItem from="1458444862946" duration="104000" />
-      <workItem from="1459514306865" duration="4084000" />
+      <workItem from="1459514306865" duration="4477000" />
     </task>
     <task id="LOCAL-00001" summary="无修改">
       <created>1456932802414</created>
@@ -879,7 +854,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12251000" />
+    <option name="totallyTimeSpent" value="12644000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -893,10 +868,10 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4951246" sideWeight="0.5021322" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32924107" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32924107" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.328125" sideWeight="0.4978678" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.328125" sideWeight="0.4978678" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26865673" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
       <window_info id="Problems" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -1156,7 +1131,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/personal-server/src/main/resources/spring/spring-servlet.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.57225436">
+        <state vertical-scroll-proportion="0.5733591">
           <caret line="49" column="0" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
           <folding />
         </state>
