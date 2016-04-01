@@ -85,4 +85,7 @@
             <value>4096</value>
         </property>
     </bean>
+
+    <import resource="classpath:/spring/applicationContext.xml"/>
+    <import resource="classpath:/spring/applicationContext-framework.xml"/>
 </beans>

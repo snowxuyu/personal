@@ -76,7 +76,4 @@
         <property name="basePackage" value="com.snow.personal.dao" />
         <property name="sqlSessionFactoryBeanName" value="sqlSessionFactory" />
     </bean>
-
-    <import resource="classpath:/spring/applicationContext-framework.xml"/>
-
 </beans>
