@@ -6,6 +6,7 @@ import com.snow.personal.service.UserService;
 import org.framework.basic.constant.Constants;
 import org.framework.basic.system.BaseException;
 import org.framework.basic.system.ResponseEntity;
+import org.framework.common.util.ContextUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Controller;
@@ -33,6 +34,7 @@ public class UserController {
         logger.debug("[personal-server] userController create request info:{}", JSONObject.toJSONString(user));
         ResponseEntity resp = new ResponseEntity();
         try {
+            System.out.println(userService);
             userService.insert(user);
             resp.setStatus(Constants.System.SUCCESSS);
             resp.setMessage("用户添加成功");
