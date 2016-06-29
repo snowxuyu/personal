@@ -6,10 +6,10 @@ import com.snow.personal.service.UserService;
 import org.framework.basic.constant.Constants;
 import org.framework.basic.system.BaseException;
 import org.framework.basic.system.ResponseEntity;
-import org.framework.common.util.ContextUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.ResponseBody;
@@ -47,5 +47,11 @@ public class UserController {
         }
         return resp;
 
+    }
+
+    @RequestMapping(value = "/test", method = RequestMethod.GET)
+    public String test(Model model) {
+        model.addAttribute("name", "springmvc");
+        return "index";
     }
 }

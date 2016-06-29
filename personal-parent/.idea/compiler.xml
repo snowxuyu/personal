@@ -22,14 +22,8 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
-        <module name="personal-server" />
-      </profile>
-      <profile default="false" name="Annotation profile for personal-core" enabled="true">
-        <sourceOutputDir name="target/generated-sources/annotations" />
-        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
-        <outputRelativeToContentRoot value="true" />
-        <processorPath useClasspath="true" />
         <module name="personal-core" />
+        <module name="personal-server" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
