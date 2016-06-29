@@ -79,13 +79,12 @@
 -->
 
     <!--springMVC+thymeleaf3.0配置-->
-    <!-- Thymeleaf Template Resolver -->
     <bean id="templateResolver" class="org.thymeleaf.spring4.templateresolver.SpringResourceTemplateResolver">
         <property name="prefix" value="/WEB-INF/templates/" />
+        <property name="suffix" value=".html" />
         <property name="templateMode" value="HTML" />
     </bean>
 
-    <!-- Thymeleaf Template Engine (Spring4-specific version) -->
     <bean id="templateEngine" class="org.thymeleaf.spring4.SpringTemplateEngine">
         <property name="templateResolvers">
             <set>
