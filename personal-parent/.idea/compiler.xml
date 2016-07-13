@@ -28,8 +28,8 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="personal-core" target="1.8" />
-      <module name="personal-parent" target="1.5" />
-      <module name="personal-server" target="1.5" />
+      <module name="personal-parent" target="1.8" />
+      <module name="personal-server" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
