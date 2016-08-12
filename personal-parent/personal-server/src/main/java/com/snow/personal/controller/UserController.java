@@ -3,8 +3,8 @@ package com.snow.personal.controller;
 import com.alibaba.fastjson.JSONObject;
 import com.snow.personal.entity.User;
 import com.snow.personal.service.UserService;
-import org.framework.basic.constant.Constants;
 import org.framework.basic.system.BaseException;
+import org.framework.basic.system.BaseResponse;
 import org.framework.basic.system.ResponseEntity;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -32,20 +32,14 @@ public class UserController {
     @ResponseBody
     public ResponseEntity create(User user) {
         logger.debug("[personal-server] userController create request info:{}", JSONObject.toJSONString(user));
-        ResponseEntity resp = new ResponseEntity();
         try {
             System.out.println(userService);
             userService.insert(user);
-            resp.setStatus(Constants.System.SUCCESSS);
-            resp.setMessage("用户添加成功");
+            return BaseResponse.buildSuccess("用户添加成功");
         } catch (BaseException e) {
-            resp.setStatus(Constants.System.ERROR);
-            resp.setMessage("用户添加失败");
-            resp.setData(e.getMessage());
             logger.debug(e.getMessage());
-            e.printStackTrace();
+            return BaseResponse.buildError(e.getMessage(), "用户添加失败");
         }
-        return resp;
 
     }
 
