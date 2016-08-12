@@ -18,6 +18,7 @@
     <aop:config />
     <!-- enable @AspectJ support with XML based configuration -->
     <aop:aspectj-autoproxy />
+    <!--开启注解-->
     <context:annotation-config  />
     <!-- 启动包扫描功能，以便注册带有@Controller、@Service、@repository、@Component等注解的类成为spring的bean -->
     <context:component-scan base-package="com.snow.personal" >
