@@ -8,7 +8,9 @@
 
 
     <!-- 扫描包 ,包名一定要写全 -->
-    <context:component-scan base-package="com.snow.personal.controller" />
+    <context:component-scan base-package="com.snow.personal.controller" >
+        <context:exclude-filter type="annotation" expression="org.springframework.stereotype.Service"/>
+    </context:component-scan>
 
     <!-- 启动注解驱动的Spring MVC功能，注册请求url和注解POJO类方法的映射 -->
     <!--使用fastJson返回json格式数据-->
