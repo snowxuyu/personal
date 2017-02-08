@@ -67,7 +67,7 @@
         <property name="mapperLocations">
             <list>
                 <!-- 表示在mybatis/mappers包或以下所有目录中，以-Mapper.xml结尾所有文件 -->
-                <value>classpath:/mybatis/mappers/*.xml</value>
+                <value>classpath*:/mybatis/mappers/*.xml</value>
             </list>
         </property>
         <!--<property name="typeAliasesSuperType" value="org.framework.basic.entity.BaseEntity" />-->
