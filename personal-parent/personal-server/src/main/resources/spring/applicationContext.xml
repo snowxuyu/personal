@@ -14,10 +14,9 @@
        http://www.springframework.org/schema/tx/spring-tx.xsd">
 
 
-
     <aop:config />
     <!-- enable @AspectJ support with XML based configuration -->
-    <aop:aspectj-autoproxy />
+    <aop:aspectj-autoproxy proxy-target-class="true" />
     <!--开启注解-->
     <context:annotation-config  />
     <!-- 启动包扫描功能，以便注册带有@Controller、@Service、@repository、@Component等注解的类成为spring的bean -->
@@ -67,14 +66,17 @@
         <property name="mapperLocations">
             <list>
                 <!-- 表示在mybatis/mappers包或以下所有目录中，以-Mapper.xml结尾所有文件 -->
-                <value>classpath*:/mybatis/mappers/*.xml</value>
+                <value>classpath:/mybatis/mappers/*.xml</value>
             </list>
         </property>
         <!--<property name="typeAliasesSuperType" value="org.framework.basic.entity.BaseEntity" />-->
 
     </bean>
+
     <bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
         <property name="basePackage" value="com.snow.personal.dao" />
         <property name="sqlSessionFactoryBeanName" value="sqlSessionFactory" />
     </bean>
+
+    <import resource="classpath:/spring/applicationContext-framework.xml"/>
 </beans>
