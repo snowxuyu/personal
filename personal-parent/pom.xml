@@ -21,6 +21,8 @@
     <thymeleaf.version>3.0.0.RELEASE</thymeleaf.version>
     <mysql.version>5.1.6</mysql.version>
     <useragent.version>1.20</useragent.version>
+    <zookeeper.version>3.4.11</zookeeper.version>
+    <zkclinet.version>0.10</zkclinet.version>
   </properties>
 
   <dependencyManagement>
@@ -66,6 +68,18 @@
         <groupId>eu.bitwalker</groupId>
         <artifactId>UserAgentUtils</artifactId>
         <version>${useragent.version}</version>
+      </dependency>
+
+      <dependency>
+        <groupId>org.apache.zookeeper</groupId>
+        <artifactId>zookeeper</artifactId>
+        <version>${zookeeper.version}</version>
+      </dependency>
+
+      <dependency>
+        <groupId>com.101tec</groupId>
+        <artifactId>zkclient</artifactId>
+        <version>${zkclinet.version}</version>
       </dependency>
 
     </dependencies>
