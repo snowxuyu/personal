@@ -6,6 +6,7 @@ import eu.bitwalker.useragentutils.UserAgent;
 import eu.bitwalker.useragentutils.Version;
 import org.framework.basic.system.BaseResponse;
 import org.framework.basic.system.ResponseEntity;
+import org.framework.common.util.IpUtils;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -31,6 +32,8 @@ public class UserAgentController {
         System.out.println("浏览器:" + browser.getName());
         System.out.println("浏览器版本号:" + browserVersion.getVersion());
         System.out.println("操作系统:" + operatingSystem.getName());
+        System.out.println("Ip:" + IpUtils.getIpAddr(request));
+        System.out.println("========================");
         return BaseResponse.buildSuccess();
     }
 }
